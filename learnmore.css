@@ -69,16 +69,25 @@ header{
   position: absolute;
   width: 90%;
   color: #fff;
-  top: 50%;
+  top: 36%;
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
   }
+  .anothertext{
+    position: absolute;
+    width: 90%;
+    color: #fff;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    }
   .welcome-text h1{
   text-align: center;
   color: pink;
   text-transform: uppercase;
-  font-size: 62px;
+  font-size: 29px;
   
   }
   .welcome-text p{
@@ -86,11 +95,18 @@ header{
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 20px;
   
   }
   
-  
+  .anothertext p{
+    margin: 10px 0 40px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+    }
   .welcome-text a{
   border: 1px solid #fff;
   padding: 10px 25px;
@@ -99,6 +115,14 @@ header{
   font-size: 14px;
   margin-top: 20px;
   }
+  .anothertext a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    }
   .btn{
   text-decoration: none;
   padding: 10px 45px;
@@ -112,4 +136,17 @@ header{
   background-color: #fff;
   color: #262626;
   }
+  .btn1{
+    text-decoration: none;
+    padding: 10px 45px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: .6s;
+    animation: animate 2s 1;
+    }
+    .btn1:hover{
+    background-color: #fff;
+    color: #262626;
+    }
   
